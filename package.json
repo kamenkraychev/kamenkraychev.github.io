@@ -1,6 +1,9 @@
 {
   "name": "react-essentials-start",
   "version": "0.0.0",
+  "homepage": "https://gitname.github.io/react-gh-pages",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
